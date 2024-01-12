@@ -1,0 +1,70 @@
+#bgC{
+    background-color: wheat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background:transparent;
+    border: none;
+}
+.image{
+    display: block;
+    height: auto;
+    width: 500px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+    top:100px;
+    margin-right: 60px;
+}
+.image:hover{
+    filter: brightness(50%);
+    width: 501px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: text;
+}
+h6{
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    background: none;
+    font-size: x-large;
+    opacity: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+#one{
+    left: 225px;
+    top: 500px;
+}
+#two{
+    left: 880px;
+    top: 500px;
+}
+#three{
+    top: 500px;
+    left: 1525px;
+}
+#four{
+    top: 825px;
+    left: 220px;
+}
+#five{
+    top: 825px;
+    left: 880px;
+}
+#six{
+    top: 825px;
+    left: 1525px;
+}
+#eventHead{
+    position: fixed;
+    top: 90px;
+    left: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}

@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(238, 237, 237);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+p,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+#alertIcon {
+    width: 400px;
+    height: 400px;
+    margin-left: calc(53% - 200px); /* Center horizontally */
+    margin-top: 50px; /* Adjust as needed for vertical centering */
+    color: rgb(213, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#txt {
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
