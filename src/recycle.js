@@ -2,8 +2,6 @@
 
 import React, { useState } from 'react';
 import './recycle.css';
-import join from './join.png';
-import noteJoin from './notejoin.png';
 
 function Recycle() {
   const [isPopupOpen, setPopupOpen] = useState(false);
