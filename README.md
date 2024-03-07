@@ -48,3 +48,7 @@ Feel free to include additional sections as needed, such as:
 Support
 
 If users need help or support with the website, provide information on where they can find assistance.
+
+
+Please note that this website is a demo project and has not been implemented practically as of now. It serves as a conceptual demonstration of the proposed functionalities.
+
