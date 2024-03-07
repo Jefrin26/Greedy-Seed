@@ -1,0 +1,55 @@
+/* Default styles for desktop screens */
+.header {
+    color: black;
+    font-size: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.633);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    width: 30px;
+    transform: scale(3);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#title {
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px; /* Adjust the margin as needed */
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#meIcon {
+    width: 20px;
+    transform: scale(1.5);
+    background-color: rgba(255, 255, 255, 0);
+}
+#meIcon:hover{
+    cursor: pointer;
+}
+
+/* Media query for screens smaller than 768px (typical phone screens) */
+@media (max-width: 768px) {
+    .header {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+    
+    #logo {
+        transform: scale(2.5); /* Adjust logo size for smaller screens */
+    }
+    
+    #meIcon {
+        transform: scale(2); /* Adjust icon size for smaller screens */
+    }
+    #title {
+        font-family: 'Pacifico', cursive;
+        margin-left: 20px; /* Adjust the margin as needed */
+        background-color: rgba(255, 255, 255, 0);
+        position: relative;
+        left: -4%;
+    }
+}
