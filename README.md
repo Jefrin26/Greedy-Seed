@@ -42,7 +42,7 @@ This project is licensed under the GNU Affero General Public License v3.0.
 
 Feel free to include additional sections as needed, such as:
 
-    Credits: This Repository is Primarily Inspired by the Core Concept of scrapuncle.com.
+    Credits: This Repository is Primarily Inspired by the Core Concept of scrapuncle.com, But it is not its clone or Alternative.
     Contact: Provide contact information for getting in touch with the project maintainers.
 
 Support
