@@ -1,22 +1,21 @@
 import React, { useState } from 'react';
-import Header from './header'; 
+import Header from './Header'; // Assuming the filename is 'Header.js' and follows PascalCase convention
+import Main from './Main';
+import Me from './Me';
+import './App.css'
 
 function App() {
-  const [clickedIcon, setClickedIcon] = useState('recycle'); // Set the initial state to 'recycle'
-
-  const handleIconClick = (iconId) => {
-    if (iconId === 'trashIcon') {
-      setClickedIcon('recycle');
-    } else if (iconId === 'peopleIcon') {
-      setClickedIcon('community'); // Set the icon to 'community' when people icon is clicked
-    } else {
-      setClickedIcon(iconId);
+  const [content,setContent]=useState(<Main/>);
+  function clickHandler(button){
+    if(button=="me"){
+      setContent(<Me/>);
     }
   }
-
   return (
-    <div>
-      <Header />
+    <div id='bg'>
+      <Header clickHandler={clickHandler} />
+      {content}
+      <h6 id='pickup'>Add Pickup</h6>
     </div>
   );
 }

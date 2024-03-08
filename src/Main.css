@@ -1,0 +1,29 @@
+#schedule{
+    position: relative;
+    top: 78px;
+    left: 45%;
+    scale: 5.5;
+}
+#bgSchedule{
+    background-color: rgba(255, 255, 255, 0.63);
+    position: relative;
+    left: 45%;
+    top: 300px;
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+#schedule:hover{
+    cursor: pointer;
+}
+#pickup{
+    position: relative;
+    left: 47.9%;
+    top: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+
+}
