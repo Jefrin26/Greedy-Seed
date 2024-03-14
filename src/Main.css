@@ -1,28 +1,64 @@
+#bgi {
+    position: relative;
+    top: 30px;
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* Set default background image */
+    background-image: url('image1.webp'); /* Replace 'default-bg.jpg' with your default background image */
+    z-index: 1;
+    
+  }
+  
 #schedule{
     position: relative;
-    top: 78px;
-    left: 45%;
+    top: 80px;
+    left: 18%;
     scale: 5.5;
+    color: rgb(182, 197, 182);
 }
 #bgSchedule{
-    background-color: rgba(255, 255, 255, 0.63);
+    filter: brightness(100%);
+    background-color: #111111;
     position: relative;
-    left: 45%;
-    top: 300px;
+    left: 66%;
+    top: 500px;
     height: 200px;
-    width: 200px;
-    border-radius: 25%;
-    cursor: pointer;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 #schedule:hover{
-    cursor: pointer;
+    color: lightgreen;
 }
 #pickup{
     position: relative;
-    left: 47.9%;
-    top: 250px;
-    font-family: 'Courier New', Courier, monospace;
+    left: 35%;
+    top: 100px;
+    width: 250px;
+    font-family: 'Roboto';
     cursor: pointer;
+    border-color: lightgreen;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 8px;
+}
+#pickup:hover{
+    background-color: lightgreen;
+    color: black;
+}
+#calendar{
+    font-family: 'Roboto';
+    position: absolute;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 8px;
+    border-color: black;
+    left: 38%;
+    top: 50px;
+    color: white;
 }
 @media (max-width: 768px){
 

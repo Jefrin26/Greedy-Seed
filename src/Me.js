@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Me.css'
 function Me() {
   return (
     <div>
@@ -8,4 +8,4 @@ function Me() {
   )
 }
 
-export default Me
+export default Me;

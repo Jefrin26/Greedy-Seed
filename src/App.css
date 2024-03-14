@@ -1,12 +1,7 @@
-#bg{
-  background-image: url('bg2.jpg');
-  height: 100vh;
-  width: auto;
-  background-repeat: no-repeat; 
-  background-size: cover; 
-}
-@media (max-width: 768px){
-#bg{
-  background-image: url('bg1.jpg');
-}
+
+@media (max-width: 768px) {
+  #bg {
+    /* Set background image for smaller screens */
+    background-image: url('bg1.jpg');
+  }
 }

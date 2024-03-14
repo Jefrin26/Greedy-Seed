@@ -1,14 +1,16 @@
 /* Default styles for desktop screens */
 .header {
-    color: black;
+    position: fixed;
+    color: white;
     font-size: 25px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    background-color: rgba(255, 255, 255, 0.633);
+    background-color: #111111;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    z-index: 2;
 }
 
 #logo {

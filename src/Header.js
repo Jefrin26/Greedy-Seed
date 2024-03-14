@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from './Greedy Seed-logos_black.png';
+import logo from './Greedy Seed-logos_white.png';
 
 function Header({ clickHandler }) {
   return (
